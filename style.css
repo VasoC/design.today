@@ -28,3 +28,9 @@
 .twopics {
   margin-top: 42px;
 }
+.flex-column img {
+  padding-right: 15px;
+}
+.flex-column a {
+  margin-bottom: 53px;
+}
