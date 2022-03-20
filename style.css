@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+}
 .sidebar {
   display: flex;
 }
@@ -50,4 +53,31 @@
 .loadmore a {
   text-decoration: none;
   color: #ffffff;
+}
+.main {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  float: right;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.search {
+  max-width: 300px;
+  width: 100%;
+  height: 56px;
+  padding-left: 5px;
+  padding-top: 35px;
+}
+.upploadbtn {
+  width: 129px;
+  height: 56px;
+  background-color: #ff2288;
+}
+.upploadbtn a {
+  color: #ffffff;
+  text-decoration: none;
 }
